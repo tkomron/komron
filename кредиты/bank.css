@@ -1,0 +1,49 @@
+html,
+.body {
+  background-image: url(./images/fon.jpg);
+  width: 100%;
+  height: 80%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.text_zag {
+  height: 65px;
+  text-align: center;
+  text-shadow: 0 0 9px rgb(242, 243, 225);
+  color: rgb(2, 0, 0);
+}
+
+.silka {
+  align-items: center;
+  box-shadow: 4px;
+  color: black;
+}
+
+.obshy:hover .kred {
+  color: rgb(0, 16, 163);
+  box-shadow: cornsilk;
+}
+
+.kred {
+  padding-top: 20px;
+  background-color: rgba(25, 34, 156, 0.733);
+  margin: 60px;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+.obshy {
+  text-align: center;
+  margin: 0 auto;
+  height: 50px;
+  width: 350px;
+}
+
+
